@@ -1,0 +1,40 @@
+.menu-box{
+        text-align: center;
+    }
+.sidebar-nav{
+        padding:0;
+    }
+#menu-icon {
+    display: none;
+}   
+.trigger {
+    display: none;
+    padding-top: 0.5rem;
+}      
+input[type=checkbox] ~ .menu-label:after {
+    content: "[+]";
+}
+    
+input[type=checkbox]:checked ~ .menu-label:after {
+    content: "[-]";
+}
+input[type=checkbox]:checked ~ .trigger {
+    display: block;
+}   
+
+
+
+@media (min-width: 800px){
+    .trigger {
+    display: block;
+    padding-top: inherit;
+    }
+    input[type=checkbox] ~ .menu-label:after {
+    content: "";
+    }
+
+    .menu-box{
+        text-align: left;
+    }
+}
+    
