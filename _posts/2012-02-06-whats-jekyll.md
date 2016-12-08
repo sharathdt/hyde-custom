@@ -7386,4 +7386,4 @@ callbacks.shift()();
 <!-- divChart -->
 
 <div id="MotionChartID20b0564f1d98" style="width: 800; height: 600;">
-</div>/github.com/mojombo/jekyll).
+</div>
